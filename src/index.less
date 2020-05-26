@@ -1,0 +1,23 @@
+@import '~iview/src/styles/index.less';
+
+@menu-dark-title: #001529;
+@menu-dark-active-bg: #000c17;
+@layout-sider-background: #001529;
+
+
+.org-tree {
+  .ivu-tree-title {
+    width: 100%;
+    padding-right: 20px;
+    &:hover {
+      background-color: transparent;
+    }
+    &.ivu-tree-title-selected, .ivu-tree-title-selected:hover {
+      background-color: transparent;
+      > div span:first-child {
+        background-color: #d5e8fc;
+        border-radius: 3px;
+      }
+    }
+  }
+}
